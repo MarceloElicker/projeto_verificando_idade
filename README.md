@@ -1,0 +1,1 @@
+Projeto realizado no curso de JavaScript, onde dependo a idade e sexo da pessoa aparece uma imagem para representar o cadastro.

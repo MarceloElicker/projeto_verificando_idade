@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificando a Idade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Verificador de Idade</h1>
+        </header>
+        <main>
+            <section>
+                <div>
+                    <p>
+                        Ano de Nascimento:
+                        <input type="number" name="txtano" id="txtano" min="0">
+                    </p>
+                    <p>sexo:
+                        <input type="radio" name="radsex" id="mas" checked>
+                        <label for="mas">Masculino</label>
+                        <input type="radio" name="radsex" id="fem">
+                        <label for="fem">Feminino</label>
+                    </p>
+
+                    <p>
+                        <input type="button" value="Verificar" onclick="verificar()">
+                    </p>
+                </div>
+                <div id="res">
+                        Preencha os dados acima para ver o resultado!
+                </div>
+            </section>
+        </main>
+        <footer>
+            <h2>Marcelo Elicker</h2>
+        </footer>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
